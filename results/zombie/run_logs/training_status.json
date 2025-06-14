@@ -1,0 +1,51 @@
+{
+    "HumanGroupBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 139245,
+                "file_path": "results\\zombie\\HumanGroupBehaviour\\HumanGroupBehaviour-139245.onnx",
+                "reward": 0.9886799751548097,
+                "creation_time": 1749797302.7487388,
+                "auxillary_file_paths": [
+                    "results\\zombie\\HumanGroupBehaviour\\HumanGroupBehaviour-139245.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 139245,
+            "file_path": "results\\zombie\\HumanGroupBehaviour.onnx",
+            "reward": 0.9886799751548097,
+            "creation_time": 1749797302.7487388,
+            "auxillary_file_paths": [
+                "results\\zombie\\HumanGroupBehaviour\\HumanGroupBehaviour-139245.pt"
+            ]
+        }
+    },
+    "ZombieGroupBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 62035,
+                "file_path": "results\\zombie\\ZombieGroupBehaviour\\ZombieGroupBehaviour-62035.onnx",
+                "reward": -0.6390266506156573,
+                "creation_time": 1749797302.8106184,
+                "auxillary_file_paths": [
+                    "results\\zombie\\ZombieGroupBehaviour\\ZombieGroupBehaviour-62035.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 62035,
+            "file_path": "results\\zombie\\ZombieGroupBehaviour.onnx",
+            "reward": -0.6390266506156573,
+            "creation_time": 1749797302.8106184,
+            "auxillary_file_paths": [
+                "results\\zombie\\ZombieGroupBehaviour\\ZombieGroupBehaviour-62035.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}
